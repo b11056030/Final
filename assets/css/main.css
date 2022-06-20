@@ -3314,20 +3314,24 @@ input, select, textarea {
 
 			#nav.alt ul li {
 				margin: 0 0.175em;
+				padding: 2.25em 1.5em;
 			}
 
 				#nav.alt ul li a {
-					font-size: 0.9em;
+					font-size: 0.7em;
+					padding: 2.25em 1.5em;
 				}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 150px) {
 
 			#nav {
 				display: none;
+				padding: 2.25em 1.5em;
 			}
 
 				#nav + #main {
 					padding-top: 0;
+					padding: 2.25em 1.5em;
 				}
 
 		}
